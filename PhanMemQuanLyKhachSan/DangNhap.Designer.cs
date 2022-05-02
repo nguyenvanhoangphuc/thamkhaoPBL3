@@ -51,9 +51,8 @@
             this.lblDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDangNhap.ForeColor = System.Drawing.Color.IndianRed;
             this.lblDangNhap.Location = new System.Drawing.Point(0, 0);
-            this.lblDangNhap.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDangNhap.Name = "lblDangNhap";
-            this.lblDangNhap.Size = new System.Drawing.Size(365, 58);
+            this.lblDangNhap.Size = new System.Drawing.Size(487, 71);
             this.lblDangNhap.TabIndex = 0;
             this.lblDangNhap.Text = "Đăng nhập";
             this.lblDangNhap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,10 +63,10 @@
             this.txtTenDangNhap.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTenDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenDangNhap.ForeColor = System.Drawing.Color.DimGray;
-            this.txtTenDangNhap.Location = new System.Drawing.Point(69, 101);
-            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.txtTenDangNhap.Location = new System.Drawing.Point(92, 124);
+            this.txtTenDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenDangNhap.Name = "txtTenDangNhap";
-            this.txtTenDangNhap.Size = new System.Drawing.Size(281, 24);
+            this.txtTenDangNhap.Size = new System.Drawing.Size(375, 30);
             this.txtTenDangNhap.TabIndex = 1;
             this.txtTenDangNhap.Text = "Tên đăng nhập";
             this.txtTenDangNhap.TextChanged += new System.EventHandler(this.txtTenDangNhap_TextChanged);
@@ -78,10 +77,10 @@
             // 
             this.pnlTenDangNhap.BackColor = System.Drawing.Color.DarkRed;
             this.pnlTenDangNhap.ForeColor = System.Drawing.Color.Peru;
-            this.pnlTenDangNhap.Location = new System.Drawing.Point(69, 124);
-            this.pnlTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlTenDangNhap.Location = new System.Drawing.Point(92, 153);
+            this.pnlTenDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlTenDangNhap.Name = "pnlTenDangNhap";
-            this.pnlTenDangNhap.Size = new System.Drawing.Size(281, 2);
+            this.pnlTenDangNhap.Size = new System.Drawing.Size(375, 2);
             this.pnlTenDangNhap.TabIndex = 2;
             this.pnlTenDangNhap.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlTenDangNhap_Paint);
             // 
@@ -91,10 +90,10 @@
             this.txtMatKhau.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatKhau.ForeColor = System.Drawing.Color.DimGray;
-            this.txtMatKhau.Location = new System.Drawing.Point(69, 156);
-            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMatKhau.Location = new System.Drawing.Point(92, 197);
+            this.txtMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(251, 24);
+            this.txtMatKhau.Size = new System.Drawing.Size(335, 30);
             this.txtMatKhau.TabIndex = 4;
             this.txtMatKhau.Text = "Mật khẩu";
             this.txtMatKhau.TextChanged += new System.EventHandler(this.txtMatKhau_TextChanged);
@@ -105,10 +104,10 @@
             // 
             this.btnDangNhap.BackColor = System.Drawing.Color.IndianRed;
             this.btnDangNhap.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangNhap.Location = new System.Drawing.Point(100, 272);
-            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDangNhap.Location = new System.Drawing.Point(133, 335);
+            this.btnDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(166, 37);
+            this.btnDangNhap.Size = new System.Drawing.Size(221, 46);
             this.btnDangNhap.TabIndex = 8;
             this.btnDangNhap.Text = "Đăng nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
@@ -118,10 +117,10 @@
             // 
             this.btnQuenMatKhau.BackColor = System.Drawing.Color.IndianRed;
             this.btnQuenMatKhau.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuenMatKhau.Location = new System.Drawing.Point(100, 314);
-            this.btnQuenMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.btnQuenMatKhau.Location = new System.Drawing.Point(133, 386);
+            this.btnQuenMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnQuenMatKhau.Name = "btnQuenMatKhau";
-            this.btnQuenMatKhau.Size = new System.Drawing.Size(166, 37);
+            this.btnQuenMatKhau.Size = new System.Drawing.Size(221, 46);
             this.btnQuenMatKhau.TabIndex = 9;
             this.btnQuenMatKhau.Text = "Quên mật khẩu";
             this.btnQuenMatKhau.UseVisualStyleBackColor = false;
@@ -130,10 +129,9 @@
             // lblChuaCoTaiKhoan
             // 
             this.lblChuaCoTaiKhoan.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblChuaCoTaiKhoan.Location = new System.Drawing.Point(100, 403);
-            this.lblChuaCoTaiKhoan.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblChuaCoTaiKhoan.Location = new System.Drawing.Point(133, 496);
             this.lblChuaCoTaiKhoan.Name = "lblChuaCoTaiKhoan";
-            this.lblChuaCoTaiKhoan.Size = new System.Drawing.Size(166, 27);
+            this.lblChuaCoTaiKhoan.Size = new System.Drawing.Size(221, 33);
             this.lblChuaCoTaiKhoan.TabIndex = 10;
             this.lblChuaCoTaiKhoan.Text = "Chưa có tài khoản?";
             this.lblChuaCoTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -143,10 +141,10 @@
             // 
             this.btnDangKy.BackColor = System.Drawing.Color.IndianRed;
             this.btnDangKy.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDangKy.Location = new System.Drawing.Point(100, 432);
-            this.btnDangKy.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDangKy.Location = new System.Drawing.Point(133, 532);
+            this.btnDangKy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnDangKy.Name = "btnDangKy";
-            this.btnDangKy.Size = new System.Drawing.Size(166, 37);
+            this.btnDangKy.Size = new System.Drawing.Size(221, 46);
             this.btnDangKy.TabIndex = 11;
             this.btnDangKy.Text = "Đăng ký";
             this.btnDangKy.UseVisualStyleBackColor = false;
@@ -156,10 +154,10 @@
             // 
             this.pnlMatKhau.BackColor = System.Drawing.Color.DarkRed;
             this.pnlMatKhau.ForeColor = System.Drawing.Color.Peru;
-            this.pnlMatKhau.Location = new System.Drawing.Point(69, 185);
-            this.pnlMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlMatKhau.Location = new System.Drawing.Point(92, 228);
+            this.pnlMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pnlMatKhau.Name = "pnlMatKhau";
-            this.pnlMatKhau.Size = new System.Drawing.Size(281, 2);
+            this.pnlMatKhau.Size = new System.Drawing.Size(375, 2);
             this.pnlMatKhau.TabIndex = 12;
             this.pnlMatKhau.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlMatKhau_Paint);
             // 
@@ -169,10 +167,10 @@
             this.btnHienMatKhau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnHienMatKhau.FlatAppearance.BorderSize = 0;
             this.btnHienMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHienMatKhau.Location = new System.Drawing.Point(325, 167);
-            this.btnHienMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.btnHienMatKhau.Location = new System.Drawing.Point(433, 206);
+            this.btnHienMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnHienMatKhau.Name = "btnHienMatKhau";
-            this.btnHienMatKhau.Size = new System.Drawing.Size(26, 17);
+            this.btnHienMatKhau.Size = new System.Drawing.Size(35, 21);
             this.btnHienMatKhau.TabIndex = 7;
             this.btnHienMatKhau.UseVisualStyleBackColor = true;
             this.btnHienMatKhau.Click += new System.EventHandler(this.btnHienMatKhau_Click);
@@ -182,10 +180,10 @@
             // picMatKhau
             // 
             this.picMatKhau.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconPassword;
-            this.picMatKhau.Location = new System.Drawing.Point(22, 156);
-            this.picMatKhau.Margin = new System.Windows.Forms.Padding(2);
+            this.picMatKhau.Location = new System.Drawing.Point(29, 192);
+            this.picMatKhau.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picMatKhau.Name = "picMatKhau";
-            this.picMatKhau.Size = new System.Drawing.Size(30, 31);
+            this.picMatKhau.Size = new System.Drawing.Size(40, 38);
             this.picMatKhau.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picMatKhau.TabIndex = 6;
             this.picMatKhau.TabStop = false;
@@ -194,10 +192,10 @@
             // picTenDangNhap
             // 
             this.picTenDangNhap.Image = global::PhanMemQuanLyKhachSan.Properties.Resources.iconUser;
-            this.picTenDangNhap.Location = new System.Drawing.Point(22, 101);
-            this.picTenDangNhap.Margin = new System.Windows.Forms.Padding(2);
+            this.picTenDangNhap.Location = new System.Drawing.Point(29, 124);
+            this.picTenDangNhap.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.picTenDangNhap.Name = "picTenDangNhap";
-            this.picTenDangNhap.Size = new System.Drawing.Size(30, 31);
+            this.picTenDangNhap.Size = new System.Drawing.Size(40, 38);
             this.picTenDangNhap.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picTenDangNhap.TabIndex = 3;
             this.picTenDangNhap.TabStop = false;
@@ -205,9 +203,9 @@
             // 
             // frmDangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 521);
+            this.ClientSize = new System.Drawing.Size(487, 641);
             this.Controls.Add(this.pnlMatKhau);
             this.Controls.Add(this.btnDangKy);
             this.Controls.Add(this.lblChuaCoTaiKhoan);
@@ -220,6 +218,7 @@
             this.Controls.Add(this.pnlTenDangNhap);
             this.Controls.Add(this.txtTenDangNhap);
             this.Controls.Add(this.lblDangNhap);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng Nhập";

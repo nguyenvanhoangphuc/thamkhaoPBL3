@@ -102,7 +102,6 @@
             this.dgvQuanLyPhong.ReadOnly = true;
             this.dgvQuanLyPhong.Size = new System.Drawing.Size(657, 368);
             this.dgvQuanLyPhong.TabIndex = 4;
-            this.dgvQuanLyPhong.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuanLyPhong_CellContentClick);
             // 
             // stt
             // 
@@ -150,7 +149,6 @@
             this.label1.Size = new System.Drawing.Size(389, 28);
             this.label1.TabIndex = 6;
             this.label1.Text = "Khách Sạn Hiện Tại Đang Có 8 Phòng";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // frmQuanLyPhong
             // 
